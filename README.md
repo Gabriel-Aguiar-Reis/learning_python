@@ -11,4 +11,5 @@ This repositore only exist to register my progress in the world of programming a
 Thank you for you attention, see you later.
   
 Ps. I'm not fluent in english, so, excuse me for errors.
-  
+
+The archives .py contains exercises about the book that I'm reading.
