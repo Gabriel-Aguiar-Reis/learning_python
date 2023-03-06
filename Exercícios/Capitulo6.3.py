@@ -77,12 +77,6 @@ for e in L:
     print(e)
     
 # Exercício 6.17
-d = {'banana': 2.00, 'maçã': 5.00}
-print(f"""
-Banana: R${d["banana"]:5.2f} 
-Maçã: R${d["maçã"]:5.2f}
-""")
-
 # Exercício 6.18
 # Exercício 6.19
 # Exercício 6.20
