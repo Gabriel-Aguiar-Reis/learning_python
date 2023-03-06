@@ -35,11 +35,54 @@ for i in range(5): # Repete o menu principal 5 vezes
             print('Operação inválida! Digite apenas F, A, G, B!')
 
 # Exercício 6.12
+L = [1, 7, 2, 4]
+minimo = L[0]
+for e in L:
+    if e < minimo:
+        minimo = e
+print(minimo)
+
 # Exercício 6.13
-# Exercício 6.14
-# Exercício 6.15
+T = [-10, -8, 0, 1, 2, 5, -2, -4]
+minimo = T[0]
+maximo = T[0]
+for e in T:
+    if e < minimo:
+        minimo = e
+    elif e > maximo:
+        maximo = e
+print(f"""
+Máximo: {maximo} 
+Mínimo: {minimo} 
+Média: {(minimo + maximo)/2}
+""")
+
 # Exercício 6.16
+L = [7, 4, 3, 12, 8]
+fim = 5
+while fim > 1:
+    trocou = False
+    x = 0
+    while x < (fim - 1):
+        if L[x] < L[x + 1]:
+            trocou = True
+            temp = L[x]
+            L[x] = L[x + 1]
+            L[x + 1] = temp
+        x += 1
+    if not trocou:
+        break
+    fim -= 1
+for e in L:
+    print(e)
+    
 # Exercício 6.17
+d = {'banana': 2.00, 'maçã': 5.00}
+print(f"""
+Banana: R${d["banana"]:5.2f} 
+Maçã: R${d["maçã"]:5.2f}
+""")
+
 # Exercício 6.18
 # Exercício 6.19
 # Exercício 6.20
