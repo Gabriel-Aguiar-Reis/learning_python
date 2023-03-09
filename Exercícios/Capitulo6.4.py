@@ -22,7 +22,7 @@ Primeira lista sem elementos repetidos da segunda: {e}""")
 
 # Exercício 6.20
 lista1 = set([1, 2, 3, 4, 5])
-lista2 = set([1, 9, 3, 7, 5, 6, 4])
+lista2 = set([1, 9, 3, 7, 5, 6, 10])
 m = lista1 - lista2
 n = lista2 - lista1
 o = lista1 | lista2

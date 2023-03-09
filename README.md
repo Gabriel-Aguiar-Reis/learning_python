@@ -12,4 +12,4 @@ Thank you for you attention, see you later.
   
 Ps. I'm not fluent in english, so, excuse me for errors.
 
-The archives .py contains exercises about the book that I'm reading.
+The .py files contains exercises about the book that I'm reading.

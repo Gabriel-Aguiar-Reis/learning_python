@@ -81,20 +81,20 @@ estoque = {'tomate': [1000, 2.30],
            'alface': [500, 0.45],
            'batata': [200, 1.20],
            'feijão': [100, 1.50]}
-venda = []
+vendas = []
 while True:
     entrada = str(input('Digite o nome do produto a adicionar\ne "fim" para continuar: '))
     for e in estoque:
         if entrada.lower() == e:
             entrada_quantidade = int(input('Digite a quantidade: '))
-            venda.append([entrada, entrada_quantidade])
+            vendas.append([entrada, entrada_quantidade])
     if entrada not in estoque.keys() and entrada != 'fim':
         print('Produto não existe!')
     if entrada.lower() == 'fim':
         break
 total = 0
 print('Vendas:\n')
-for operação in venda:
+for operação in vendas:
     produto, quantidade = operação
     preço = estoque[produto][1]
     custo = preço * quantidade
