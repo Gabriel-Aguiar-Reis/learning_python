@@ -34,7 +34,7 @@ string = input("Digite uma string: ")
 for m in set(string):
     contagem = string.count(m)
     print(f"{m}: {contagem}")
-
+    
 # Exercício 7.5
 # Exercício 7.6
 # Exercício 7.7
